@@ -1,0 +1,177 @@
+
+
+/*confirm/ страница после оформления заказа*/
+
+.confirm{
+  margin-top: 25px;
+  padding-right: 310px;
+}
+
+
+.confirmText {
+  /*padding-right: 310px;*/
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.confirmText .ctt1 {
+  color: #006b46;
+  font-size: 22px;
+  
+}
+.confirmText .ctt2 {
+  font-size: 22px;
+  color: #a7a7a7;
+  margin-bottom: 30px;
+}
+
+
+.cttt{
+  color: #006b46;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+
+.cttm{
+  color: #006b46;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cttb{
+  color: #a7a7a7;
+  font-size: 15px;
+  margin-top: 15px;
+  
+}
+
+.cellborder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 10px solid #ffa422;
+  border-radius: 100%;
+  width: 95px;
+  background-color: #fff;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.4);
+}
+
+.chainImages{ 
+  /*padding-right: 310px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chainImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  min-width: 240px;
+}
+
+.chainImage img{
+  width: 40px;
+  height: auto;
+}
+
+.hr1{
+  border-top: 4px solid #f0f0f0 !important;
+}
+
+.hr2{
+  display: none;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  z-index: -10;
+  margin-top: -50px;
+  border-top: 4px solid #f0f0f0 !important;
+}
+
+
+.linkvpersonal{
+  text-align: center;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+
+
+/**/
+
+
+.btn.btn-lg.btn-default{
+  margin-right: 20px;
+}
+
+
+.bx-authform-formgroup-container .btn.btn-link{
+  background: none!important;
+  box-shadow: none;
+}
+
+
+/* ahtung text */
+.ahtungtext{
+  border: 1px solid red;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ahtungtext p{
+  color: black;
+  font-size: 16px;
+}
+/**/
+/**/
+/**/
+
+@media (max-width:700px),(max-device-width:700px) {
+  .bt{
+    display: block;
+  }
+}
+
+
+@media (max-width:760px),(max-device-width:760px) {
+
+  .chainImages{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+}
+
+
+@media (max-width:1170px),(max-device-width:1170px) {
+  
+  .confirm{
+  padding-right: 10px;
+  }
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+/**/

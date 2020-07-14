@@ -1,0 +1,138 @@
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 7%;
+
+}
+
+.success-reg {
+    margin: 0 auto;
+    margin-left: 17%;
+}
+
+.top_1 {
+    color: #ffa422;
+    font-weight: 600;
+
+}
+
+.top_2 {
+    color: #ffa422;
+    font-weight: 600;
+
+}
+
+.main-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.confirm {
+    width: 35%;
+    margin-left: 8%;
+}
+
+.next {}
+
+.img-reg {
+    width: 28%;
+}
+
+@media all and (max-width: 1100px) {
+    .img-reg {
+        min-width: 37%;
+        margin-left: 10%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    .main-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .img-reg {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .confirm {
+        width: 90%;
+    }
+
+    .next {
+        font-size: 18px;
+        color: #FFA422;
+        font-weight: 600;
+
+    }
+
+    .top_1 {
+        font-size: 18px;
+        color: #4F4F4F;
+        font-weight: 600;
+
+
+    }
+
+    .top_2 {
+        font-weight: 600;
+        font-size: 18px;
+
+    }
+
+    .success-reg {
+        margin: 0 auto;
+        margin-left: 8%;
+    }
+}
